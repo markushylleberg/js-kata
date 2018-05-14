@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: lightcoral;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.myH1{
+    padding-top: 35vh;
+    color: whitesmoke;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.popup{
+    position: absolute;
+    background-color: darkgray;
+    color: whitesmoke;
+    overflow: hidden;
+    width: 100vw;
+    height: 17vh;
+    transition: 2s;
+    bottom: -120px;
+}
+
+.myH2{
+    margin-top: 5vh;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.closeMe{
+    padding-left: 90vw;
+    cursor: pointer;
+}
