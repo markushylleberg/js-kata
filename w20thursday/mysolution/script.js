@@ -29,11 +29,4 @@ function clickMe() {
     let base = document.querySelector(":root");
 
     document.documentElement.style.setProperty(`--basecolor`, value);
-
-
-
-    // this.style.getPropertyValue("data-id");
-    // getComputedStyle(this).getPropertyValue("data-id");
-    // base.style.setProperty('--basecolor', 'this', +1);
-
 }

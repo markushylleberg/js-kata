@@ -71,15 +71,40 @@ const list_data = [
 
 
 function buildList() {
-
     // build a list of all the links in list_data
+    let liste = Array.from(list_data);
+    
 
     // create a <li>-element for each one, let it contain a link to the link, with the description as text
+    liste.forEach(function(list_data) {
 
+        let lii = document.createElement("a");
+
+        let linkz = list_data.link;
+        createLi();
+        lii.innerHTML = list_data.description;
+        lii.href = ('href', linkz);
+
+        document.body.appendChild(lii);
+    });
+
+};
+
+function createLi(buildList) {
     // use the createLi function to create an li-element
+
+    let liste = Array.from(list_data);
+
+    // liste.forEach(function(createLi) {
+        let elementz = document.createElement("li");
+
+        document.body.appendChild(elementz);
+    // });
 
     // append all the created <li>-elements to #thelist
 
-}
+};
+
+
 
 // TODO: Make function createLi

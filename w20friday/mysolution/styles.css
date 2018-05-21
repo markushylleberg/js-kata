@@ -1,1 +1,17 @@
-/* TODO: Make it pretty! */
+body{
+    background-color: lightcoral;
+    text-align: center;
+}
+
+h1, p{
+    color: whitesmoke;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
